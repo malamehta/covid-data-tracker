@@ -1,0 +1,41 @@
+.main-heading{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 35px;
+}
+.main-content{
+    display: flex;
+    justify-content: center;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+tr th{
+    padding: 15px 30px;
+    background-color: rgb(216, 216, 216);
+    font-size: 25px;
+}
+tr th:hover{
+    background-color: black;
+    color: white;
+}
+tr td{
+    padding: 10px 30px;
+    
+}
+td:first-child{
+    font-weight: bold;
+    font-size: 20px;
+}
+td:first-child:hover{
+    background-color: rgb(131, 131, 127);
+    
+}
+td:hover{
+    background-color: green;
+}
+td:nth-child(4):hover{
+    background-color: red;
+}
